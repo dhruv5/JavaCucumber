@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 242116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepImplementation.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To test",
+        "description": "",
+        "id": "check-the-login;to-test",
+        "after": [
+          {
+            "result": {
+              "duration": 62327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepImplementation.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168258986,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "start the app",
+            "match": {
+              "location": "stepImplementation.start_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138367,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login",
+            "match": {
+              "location": "implementation2.login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64308,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Shut",
+            "match": {
+              "location": "implementation2.shut()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "check the login",
+    "description": "",
+    "id": "check-the-login",
+    "keyword": "Feature",
+    "uri": "Features/FirstFeature.feature"
+  }
+]
